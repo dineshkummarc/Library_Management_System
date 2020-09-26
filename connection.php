@@ -1,8 +1,8 @@
 <?php
 	//1. create a database connection_aborted
 	$dbhost = "localhost";
-	$dbuser = "lms";
-	$dbpass = "lms";
+	$dbuser = "root";
+	$dbpass = "";
 	$dbname = "lms";
 	$connection = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
 	
